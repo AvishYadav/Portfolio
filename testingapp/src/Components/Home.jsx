@@ -1,9 +1,10 @@
 import React from 'react'
 import Landing from './Landing'
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <Landing />
     </div>
   )
