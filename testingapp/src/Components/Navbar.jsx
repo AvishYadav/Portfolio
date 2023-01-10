@@ -14,16 +14,16 @@ const Navbar = () => {
   return (
     <div className='navbar' id='myNavbar'>
         <ul>
-          <li className='logo'><Link to="/"><img src="" alt="LOGO" /></Link></li>
+          <li className='logo'><Link to="/"></Link></li>
           <li><Link to="/goals">Goals</Link></li>
           <li><Link to="/tools">Tools</Link></li>
           <li><Link to="/works">Works</Link></li>
           <li><Link to="/skills">Skills</Link></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
+          <li><button class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></button></li>
         </ul>
       
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
