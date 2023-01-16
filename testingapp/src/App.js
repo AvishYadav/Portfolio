@@ -5,6 +5,7 @@ import Skills from './Components/Skills';
 import Works from './Components/Works';
 import Tools from './Components/Tools';
 import Goals from './Components/Goals';
+import Footer from './Components/Footer';
 import {BrowserRouter as Router, 
   Routes, Route} from 'react-router-dom'
 
@@ -15,13 +16,13 @@ function App() {
       <Navbar/>
       
       <Routes>
-       <Route path="/" element={<><Home/></>}/>
+       <Route path="/" element={<Home/>}/>
        <Route path="/skills" element={<Skills />} />
        <Route path="/works" element={<Works />} />
        <Route path="/tools" element={<Tools />} />
        <Route path="/goals" element={<Goals />} />
       </Routes>
-        
+      <Footer/>
     </Router>
     
   </>

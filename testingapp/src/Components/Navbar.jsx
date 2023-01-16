@@ -1,29 +1,35 @@
 import React from 'react'
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css'
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
-  function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
-  }
+  const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
   return (
     <div className='navbar' id='myNavbar'>
-        <ul>
-          <li className='logo'><Link to="/"></Link></li>
-          <li><Link to="/goals">Goals</Link></li>
-          <li><Link to="/tools">Tools</Link></li>
-          <li><Link to="/works">Works</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><button class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></button></li>
-        </ul>
-      
+        <header>
+			   <h3>LOGO</h3>
+			   <button className="nav-btn" onClick={showNavbar}><FaBars /></button>
+			   <nav ref={navRef}>
+				    <a href="/tools">Tools</a>
+				    <a href="/works">Works</a>
+				    <a href="/#">About Me</a>
+				    <a href="/goals">Goals</a>
+				    <button className="nav-btn nav-close-btn" onClick={showNavbar}>	<FaTimes /></button>
+		     </nav>
+		    </header>
     </div>
   )
 }
 
 export default Navbar;
+
+
+
+
+
