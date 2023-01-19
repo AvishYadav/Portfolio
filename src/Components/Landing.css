@@ -37,7 +37,7 @@
 
 
 .welcome_text{
-    /* height: 275px; */
+    height: 275px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -105,19 +105,6 @@
     .landing_left{
         grid-row: 2;
         margin: auto;
-    }
-
-    .welcome_text{
-        font-size: 36px;
-        line-height: 37px;
-        text-align: center;
-        margin-bottom: 20px;
-        /* text-justify: left; */
-    }
-
-    .landing_familiar_tools{
-        margin-bottom: 30px;
-
     }
 }
   
