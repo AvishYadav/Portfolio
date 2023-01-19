@@ -1,0 +1,92 @@
+.AboutMe{
+    width: 100%;
+    padding-block: 1rem;
+    position: relative;
+    display: grid;
+    grid-row-gap: 25px;
+}
+
+.about_header{
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.about_main{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about_main_pic{
+
+    width: fit-content;
+    display: grid;
+}
+
+
+.about_main_pic img{
+    display: grid;
+    margin: 0 auto;
+    width: 600px;
+    
+}
+
+.about_main_title{
+    display: grid;
+    /* width: 45%; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about_title_text{
+    text-align: center;
+}
+
+.dot{
+    height: 52px;
+    width: 52px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+
+  .about_describe{
+    /* width: 75%; */
+    margin: 0 10%;
+    display: grid;
+  }
+
+  .about_skills{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 25px;
+
+  }
+  .about_skills_header{
+    display: grid;
+}
+
+.about_skills_desc{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .about_main {
+        display: grid;
+        height: fit-content;
+        grid-template-columns: auto;
+        justify-content: center;
+    } 
+
+    .about_main_pic img{
+        display: grid;
+        margin: 0 auto;
+        width: 300px;
+        
+    }
+
+}
