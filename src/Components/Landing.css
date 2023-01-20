@@ -12,13 +12,13 @@
     background: rgba(255, 255, 255, 0.55); 
     backdrop-filter: blur(5px);
 }
-.landing_img img{
+/* .landing_img img{
     width: fit-content;
     height: fit-content;
-}
+} */
 .landing_bg{
     margin: auto;
-    margin-right: 10vw;
+    /* margin-right: 10vw; */
     background-image: url("../Img/landing_bg1.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -37,7 +37,7 @@
 
 
 .welcome_text{
-    height: 275px;
+    /* height: 275px; */
 
     font-family: 'Raleway';
     font-style: normal;
@@ -105,6 +105,41 @@
     .landing_left{
         grid-row: 2;
         margin: auto;
+    }
+
+    .welcome_text{
+        font-size: 36px;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 20px;
+        /* text-justify: left; */
+    }
+
+    .landing_familiar_tools{
+        margin-bottom: 30px;
+
+    }
+
+    .landing_img img{
+        width: 250px;
+    }
+    
+    .dot{
+        width: 26px;
+        height: 26px; 
+        background-size: 26px;  
+    }
+
+    .landing_familiar_tools{
+        margin: 5vw;
+    }
+
+    .landing_text2{
+        margin: 5vw;
+    }
+
+    .landing{
+        position: relative;
     }
 }
   
