@@ -42,19 +42,27 @@
 
 .about_title_text{
     text-align: center;
+    font-size: x-large;
 }
 
-.dot{
-    height: 52px;
-    width: 52px;
-    margin-right: 20px;
+.lang_icon{
+    height: 152px;
+    width: 152px;
+    margin-inline: 25px;
     display: inline-block;
   }
+
+.lang_icon img{
+    width: 152px;
+    height: 152px;
+
+}
 
   .about_describe{
     /* width: 75%; */
     margin: 0 10%;
     display: grid;
+    font-size: larger;
   }
 
   .about_skills{
@@ -67,11 +75,13 @@
   }
   .about_skills_header{
     display: grid;
+    font-size: larger;
 }
 
 .about_skills_desc{
     display: grid;
     grid-template-columns: auto auto auto;
+    font-size: large;
 }
 
 @media screen and (max-width: 1300px) {
@@ -80,6 +90,7 @@
         height: fit-content;
         grid-template-columns: auto;
         justify-content: center;
+        grid-row-gap: 20px;
     } 
 
     .about_main_pic img{
@@ -88,5 +99,34 @@
         width: 300px;
         
     }
+
+    .about_main_title{
+        grid-row-gap: 25px;
+        justify-content: center;
+    }
+    
+    .about_describe{
+        font-size: medium;
+    }
+
+    .about_skills_desc{
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+    }
+
+    .lang_icon{
+        height: 76px;
+        width: 76px;
+        margin-inline: 14px;
+      }
+    
+    .lang_icon img{
+        width: 76px;
+        height: 76px;
+    
+    }
+
+
 
 }

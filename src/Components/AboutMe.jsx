@@ -1,5 +1,8 @@
 import React from "react";
 import About_img from "../Img/about_img.png";
+import react_icon from "../Img/react_icon.png";
+import python_icon from "../Img/python_icon.png";
+import c_icon from "../Img/c_icon.png";
 import "./AboutMe.css"
 
 const AboutMe = () =>{
@@ -12,9 +15,9 @@ const AboutMe = () =>{
                 <div className="about_main_title">
                     <div className="about_title_text"><h2>SoulKing</h2><h4>Web Developer & Student</h4></div>
                     <div className="about_title_icons">
-                    <span class="dot" style={{backgroundImage: "url(https://img.icons8.com/color/512/visual-studio-code-2019.png)", backgroundSize: "52px 52px"}}></span>
-                    <span class="dot" style={{backgroundImage: "url(https://img.icons8.com/color/512/visual-studio-code-2019.png)", backgroundSize: "52px 52px"}}></span>
-                    <span class="dot" style={{backgroundImage: "url(https://img.icons8.com/color/512/visual-studio-code-2019.png)", backgroundSize: "52px 52px"}}></span>
+                     <span class="lang_icon" style={{ backgroundSize: "52px 52px"}}><img src={react_icon} alt="icons"></img></span>
+                     <span class="lang_icon" style={{ backgroundSize: "52px 52px"}}><img src={python_icon} alt="icons"></img></span>
+                     <span class="lang_icon" style={{ backgroundSize: "52px 52px"}}><img src={c_icon} alt="icons"></img></span>
                     </div>
                 </div>
             </div>
