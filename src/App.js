@@ -6,24 +6,23 @@ import Works from './Components/Works';
 import Tools from './Components/Tools';
 import Goals from './Components/Goals';
 import Footer from './Components/Footer';
-import {BrowserRouter as Router, 
-  Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <>
-    <Router>
+    
       <Navbar/>
-      
       <Routes>
        <Route path="/" element={<Home/>}/>
-       <Route path="/skills" element={<Skills />} />
-       <Route path="/works" element={<Works />} />
-       <Route path="/tools" element={<Tools />} />
-       <Route path="/goals" element={<Goals />} />
+       <Route path="/testingapp/" element={<Home/>}/>
+       <Route path="/testingapp/skills" element={<Skills />} />
+       <Route path="/testingapp/goals" element={<Goals />} />
+       <Route path="/testingapp/works" element={<Works />} />
+       <Route path="/testingapp/tools" element={<Tools />} />
       </Routes>
       <Footer/>
-    </Router>
+    
     
   </>
   );

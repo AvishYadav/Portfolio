@@ -1,0 +1,15 @@
+.tools{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    margin: 30px auto;
+    height: 200px;
+    width: 300px;
+    background-color: #BEF4D4;
+    border: 5px solid #582CB0;
+    border-radius: 30px;
+    box-shadow: 8px 8px 0 -5px #0091FE, 8px 8px 0 0 #582CB0;
+  }

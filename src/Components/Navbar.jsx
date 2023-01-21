@@ -16,10 +16,10 @@ const Navbar = () => {
 			   <h3>LOGO</h3>
 			   <button className="nav-btn" onClick={showNavbar}><FaBars /></button>
 			   <nav ref={navRef}>
-				    <a href="/tools">Tools</a>
-				    <a href="/works">Works</a>
-				    <a href="/#">About Me</a>
-				    <a href="/goals">Goals</a>
+				    <a href="/testingapp/tools">Tools</a>
+				    <a href="/testingapp/works">Works</a>
+				    <a href="/testingapp/#">About Me</a>
+				    <a href="/testingapp/goals">Goals</a>
 				    <button className="nav-btn nav-close-btn" onClick={showNavbar}>	<FaTimes /></button>
 		     </nav>
 		    </header>
