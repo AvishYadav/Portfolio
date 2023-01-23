@@ -58,22 +58,23 @@
 
 }
 
-  .about_describe{
+.about_describe{
     /* width: 75%; */
     margin: 0 10%;
     display: grid;
     font-size: larger;
-  }
+}
 
-  .about_skills{
+.about_skills{
     width: 70%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: auto auto;
     grid-row-gap: 25px;
 
-  }
-  .about_skills_header{
+}
+
+.about_skills_header{
     display: grid;
     font-size: larger;
 }

@@ -13,3 +13,33 @@
     border-radius: 30px;
     box-shadow: 8px 8px 0 -5px #0091FE, 8px 8px 0 0 #582CB0;
   }
+
+  .tools_card{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tool_img_div{
+    display: grid;
+    margin-top: 20%;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+}
+
+.tool_img{
+    height: 130px;
+    width: 130px;
+    
+  }
+
+.tool_img img{
+    width: 130px;
+    height:130px;
+}
+
+.tool_desc{
+    margin-top: 50%;
+    justify-content: center;
+}
