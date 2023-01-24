@@ -8,7 +8,7 @@ import "./AboutMe.css"
 const AboutMe = () =>{
     return (
         <>
-         <div className="AboutMe">
+         <div className="AboutMe" id="aboutMe">
             <div className="about_header"><h1>About Me</h1></div>
             <div className="about_main">
                 <div className="about_main_pic"><img src={About_img} alt="about_img" /></div>

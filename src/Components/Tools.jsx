@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import './Tools.css'
 import { HiOutlineArrowLongRight, HiOutlineArrowLongLeft } from 'react-icons/hi2';
-import react_icon from "../Img/react_icon.png";
 
 
 const Tools = () => {
@@ -76,7 +75,7 @@ const leftArrow = () => {
     }
 };
   return (
-    <div className='tools'>
+    <div className='tools' id='tools'>
         <div className="left_arrow"><button onClick={leftArrow}><HiOutlineArrowLongLeft/></button></div>
         <div className="card">
          <div className='tools_card'>
