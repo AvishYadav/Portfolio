@@ -1,36 +1,33 @@
 .tools{
     display: grid;
+    margin-bottom: 50px;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
     align-items: center;
 }
 .card {
     margin: 30px auto;
-    height: 200px;
-    width: 300px;
+    height: fit-content;
+    width: fit-content;
     background-color: #BEF4D4;
     border: 5px solid #582CB0;
     border-radius: 30px;
-    box-shadow: 8px 8px 0 -5px #0091FE, 8px 8px 0 0 #582CB0;
-  }
-
-  .tools_card{
+    box-shadow: 12px 12px 0 -5px #0091FE, 12px 12px 0 0 #582CB0;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto;
 }
-
 .tool_img_div{
     display: grid;
-    margin-top: 20%;
+    
     justify-content: center;
-    width: 130px;
-    height: 130px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .tool_img{
-    height: 130px;
-    width: 130px;
+    height: fit-content;
+    width: fit-content;
     
   }
 
@@ -40,6 +37,73 @@
 }
 
 .tool_desc{
-    margin-top: 50%;
+    align-items: center;
+    width: 200px;
+    margin: 5px;
     justify-content: center;
+}
+.right_arrow{
+    margin-right: 15vw;
+}
+.left_arrow{
+    margin-left: 15vw;
+}
+.right_arrow button{
+    height: 50px;
+    width:100px;
+    background: linear-gradient(163.39deg, #B1DDF6 -36.9%, #6F99E1 88.51%);
+    border-radius: 23.5px;
+    box-shadow: -4px 4px 10px rgb(130, 130, 130);
+    border: none;
+    color: whitesmoke;
+}
+
+.left_arrow button{
+    height: 50px;
+    width:100px;
+    background: linear-gradient(163.39deg, #B1DDF6 -36.9%, #6F99E1 88.51%);
+    border-radius: 23.5px;
+    box-shadow: 4px 4px 10px rgb(130, 130, 130);
+    border: none;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 900px) {
+    .right_arrow {
+        margin-right: 10vw;
+    }
+    .left_arrow{
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .card{
+        width: 200px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .tool_img img{
+        width: 60px;
+        height:60px;
+        padding: 5px;
+    }
+    .tool_desc{
+        width: 175px;
+        margin-bottom: 8px;
+    }
+    .right_arrow {
+        margin-right: 5vw;
+    }
+    .left_arrow{
+        margin-left: 5vw;
+    }
+    .right_arrow button{
+        height: 25px;
+        width: 50px;
+    }
+    .left_arrow button{
+        height: 25px;
+        width: 50px;
+    }
 }

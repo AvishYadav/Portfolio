@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import './Tools.css'
-import { HiOutlineArrowLongRight, HiOutlineArrowLongLeft } from 'react-icons/hi2';
+import ToolCard from './ToolCard.jsx';
+import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
+
 
 
 const Tools = () => {
@@ -53,7 +55,7 @@ const Tools = () => {
         id: 6,
         img_src: "https://img.icons8.com/fluency/512/canva-app.png",
         alt:'canva_img',
-        text: ' Free and with ton of templates, a prefect alternative of photoshop ',
+        text: ' Free and with ton of templates, a prefect alternative of photoshop Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit vero aliquid debitis iste eius repudiandae cumque cum, amet incidunt, eaque possimus totam hic quas quod necessitatibus doloribus dolorum iure nihil.',
     },
 ];
 const [idNumber, setIdNumber] = useState(0);
@@ -76,9 +78,9 @@ const leftArrow = () => {
 };
   return (
     <div className='tools' id='tools'>
-        <div className="left_arrow"><button onClick={leftArrow}><HiOutlineArrowLongLeft/></button></div>
+        <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>
         <div className="card">
-         <div className='tools_card'>
+         
           <div className="tool_img_div"> <span className="tool_img"><img src={data[idNumber].img_src} alt={data[idNumber].alt}></img></span></div>
           <div className="tool_desc_block">
             <div className="tool_desc">
@@ -86,9 +88,14 @@ const leftArrow = () => {
              <p>{data[idNumber].text}</p>
             </div>
           </div>
-          </div>
+          
          </div>
-        <div className="right_arrow"><button onClick={rightArrow}><HiOutlineArrowLongRight/></button></div>
+        <div className="right_arrow"><button onClick={rightArrow}><IoIosArrowForward/></button></div>
+        <div className="tool_list">
+        {data.map(function (obj, i) {
+                        return <ToolCard id={obj.id} img_src={obj.img_src} key={i} changeId={changeId} />;
+                    })}
+        </div>
     </div>
   )
 }
