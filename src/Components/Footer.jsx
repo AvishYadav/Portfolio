@@ -7,6 +7,7 @@ import {
 } from "react-icons/ti";
 import { FaGithub} from 'react-icons/fa';
 import "./Footer.css"
+import {HashLink as Link} from 'react-router-hash-link';
 
 const Footer = () => {
   return (
@@ -25,11 +26,11 @@ const Footer = () => {
             <div className="footer_box_map">
                 <h3>Site Map</h3>
                 <div className="footer_sitemap">
-                    <a href="/skills">Skills</a>
-				    <a href="/tools">Tools</a>
-				    <a href="/works">Works</a>
-				    <a href="/#">About Me</a>
-				    <a href="/goals">Goals</a>
+                    <Link to="skills">Skills</Link>
+				    <Link to="tools">Tools</Link>
+				    <Link to="works">Works</Link>
+				    <Link to="/#aboutMe">About Me</Link>
+				    <Link to="goals">Goals</Link>
                 </div>
             </div>
             <div className="test"></div>

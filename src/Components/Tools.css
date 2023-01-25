@@ -1,3 +1,10 @@
+.tool_header{
+    display: flex;
+    margin: 3vh 0;
+    width: 100%;
+    justify-content: center;
+    color: #582CB0;
+}
 .tools{
     display: grid;
     margin-bottom: 50px;
@@ -67,7 +74,17 @@
     border: none;
     color: whitesmoke;
 }
-
+.tool_list{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto; */
+    column-gap: 30px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
 @media screen and (max-width: 900px) {
     .right_arrow {
         margin-right: 10vw;

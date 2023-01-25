@@ -1,0 +1,21 @@
+.tool_card_div{
+    display: flex;
+    height: 65px;
+    width: 65px;
+    background-color: whitesmoke;
+    border-radius: 55px;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgb(130, 130, 130);
+}
+.tool_card_img{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.tool_card_img img{
+    height: 50px;
+    width: 50px;
+    
+}

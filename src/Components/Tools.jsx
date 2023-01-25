@@ -55,7 +55,7 @@ const Tools = () => {
         id: 6,
         img_src: "https://img.icons8.com/fluency/512/canva-app.png",
         alt:'canva_img',
-        text: ' Free and with ton of templates, a prefect alternative of photoshop Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit vero aliquid debitis iste eius repudiandae cumque cum, amet incidunt, eaque possimus totam hic quas quod necessitatibus doloribus dolorum iure nihil.',
+        text: ' Free and with ton of templates, a prefect alternative of photoshop.',
     },
 ];
 const [idNumber, setIdNumber] = useState(0);
@@ -77,6 +77,8 @@ const leftArrow = () => {
     }
 };
   return (
+    <>
+    <div className="tool_header"><h1>Tools Used</h1></div>
     <div className='tools' id='tools'>
         <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>
         <div className="card">
@@ -91,12 +93,14 @@ const leftArrow = () => {
           
          </div>
         <div className="right_arrow"><button onClick={rightArrow}><IoIosArrowForward/></button></div>
-        <div className="tool_list">
-        {data.map(function (obj, i) {
-                        return <ToolCard id={obj.id} img_src={obj.img_src} key={i} changeId={changeId} />;
-                    })}
-        </div>
+        
     </div>
+    <div className="tool_list">
+        {data.map(function (obj, i) {
+                    return <ToolCard id={obj.id} img_src={obj.img_src} key={i} changeId={changeId} />;
+                })}
+    </div>
+    </>
   )
 }
 
