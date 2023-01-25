@@ -95,11 +95,14 @@ const leftArrow = () => {
         <div className="right_arrow"><button onClick={rightArrow}><IoIosArrowForward/></button></div>
         
     </div>
-    <div className="tool_list">
+    <div className="list_container">
+     <div className="tool_list">
         {data.map(function (obj, i) {
                     return <ToolCard id={obj.id} img_src={obj.img_src} key={i} changeId={changeId} />;
                 })}
+     </div>
     </div>
+    
     </>
   )
 }

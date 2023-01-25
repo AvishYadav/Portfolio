@@ -74,11 +74,18 @@
     border: none;
     color: whitesmoke;
 }
+
+.list_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .tool_list{
     /* display: grid;
     grid-template-columns: auto auto auto auto auto auto auto; */
     column-gap: 30px;
     row-gap: 20px;
+    width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

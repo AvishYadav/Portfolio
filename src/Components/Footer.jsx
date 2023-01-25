@@ -26,11 +26,10 @@ const Footer = () => {
             <div className="footer_box_map">
                 <h3>Site Map</h3>
                 <div className="footer_sitemap">
-                    <Link to="skills">Skills</Link>
-				    <Link to="tools">Tools</Link>
-				    <Link to="works">Works</Link>
-				    <Link to="/#aboutMe">About Me</Link>
-				    <Link to="goals">Goals</Link>
+				    <Link to="tools" smooth>Tools</Link>
+				    <Link to="works" smooth>Works</Link>
+				    <Link to="/#aboutMe" smooth>About Me</Link>
+				    <Link to="goals" smooth>Goals</Link>
                 </div>
             </div>
             <div className="test"></div>
