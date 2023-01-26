@@ -24,6 +24,11 @@ header {
   border-radius: 5rem;
 }
 
+.logo{
+	width: 30px;
+	height: 45px;
+}
+
 .links {
 	margin: 0 1rem;
 	color: var(--textColor);

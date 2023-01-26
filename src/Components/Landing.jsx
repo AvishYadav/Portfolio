@@ -2,6 +2,7 @@ import React from 'react'
 import "./Landing.css"
 import landing_img from '../Img/landing_img.png'
 import forward_arrow from "../Img/forward_arrow.png";
+
 const Landing = () => {
   return (
     <div className='landing'>

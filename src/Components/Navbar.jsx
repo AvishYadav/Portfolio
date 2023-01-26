@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRef } from "react";
+import brook_logo from "../Img/brook_logo.png"
 import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css';
 import {HashLink as Link} from 'react-router-hash-link';
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='navbar' id='myNavbar'>
         <header>
-			   <h3><Link to="/" className='links'>LOGO</Link></h3>
+			   <h3><Link to="/" className='links'><img src={brook_logo} alt=""  className='logo'/></Link></h3>
 			   <button className="nav-btn" onClick={showNavbar}><FaBars /></button>
 			   <nav ref={navRef}>
 				    <Link to="tools" className='links' smooth>Tools</Link>

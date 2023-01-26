@@ -84,7 +84,14 @@
     grid-template-columns: auto auto auto;
     font-size: large;
 }
-
+.about_skills_backend{
+    border-right: 1px solid gray;
+    margin-right: 70px;
+}
+.about_skills_frontend{
+    border-right: 1px solid gray;
+    margin-right: 70px;
+}
 @media screen and (max-width: 1300px) {
     .about_main {
         display: grid;
@@ -128,6 +135,10 @@
     
     }
 
-
-
+    .about_skills_backend{
+        border: none; 
+    }
+    .about_skills_frontend{
+        border: none;
+    }
 }
