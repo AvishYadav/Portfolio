@@ -84,7 +84,7 @@ const leftArrow = () => {
     }
 };
   return (
-    <>
+  <div className='work'>
     <div id='work_header'><h1>My Recent Work</h1></div>
     <div className="work_container">
       <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>
@@ -102,7 +102,7 @@ const leftArrow = () => {
       </div>
       <div className="right_arrow"><button onClick={rightArrow}><IoIosArrowForward/></button></div>
     </div>
-    </>
+    </div>
     
   )
 }

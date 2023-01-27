@@ -12,6 +12,7 @@ function App() {
     <>
     
       <Navbar/>
+      <div className='app_main'>
       <Routes>
        <Route path="/" element={<Home/>}/>
        <Route path="goals" element={<Goals />} />
@@ -22,6 +23,7 @@ function App() {
       <Footer/>
     
     
+      </div>
   </>
   );
 }

@@ -3,7 +3,7 @@ import './Goals.css'
 
 const Goals = () => {
   return (
-    <>
+    <div className='goals_main'>
       <div className="goals_title"><h1>Goals</h1></div>
       <div id='goals'>
         <div className="tech_goals">
@@ -45,7 +45,7 @@ const Goals = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
     
   )
 }
