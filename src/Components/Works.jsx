@@ -85,6 +85,20 @@ const leftArrow = () => {
 };
   return (
   <div className='work'>
+                <div className='circles_container'>
+                  <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+            </div>
     <div id='work_header'><h1>My Recent Work</h1></div>
     <div className="work_container">
       <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>

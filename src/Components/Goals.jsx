@@ -1,9 +1,25 @@
 import React from 'react'
+import "./CircleAnimation.css"
 import './Goals.css'
 
 const Goals = () => {
   return (
+    <>
     <div className='goals_main'>
+      <div className='circles_container'>
+             <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+             </ul>
+    </div>
       <div className="goals_title"><h1>Goals</h1></div>
       <div id='goals'>
         <div className="tech_goals">
@@ -46,7 +62,7 @@ const Goals = () => {
         </div>
       </div>
     </div>
-    
+    </>
   )
 }
 

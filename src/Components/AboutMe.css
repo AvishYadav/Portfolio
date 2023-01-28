@@ -1,9 +1,11 @@
+
 .AboutMe{
     width: 100%;
     padding-block: 1rem;
     position: relative;
     display: grid;
     grid-row-gap: 25px;
+    height: 100%;
 }
 
 .about_header{
@@ -142,3 +144,4 @@
         border: none;
     }
 }
+

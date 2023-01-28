@@ -1,11 +1,11 @@
 .goals_main{
     margin-top: 130px;
 }
-
 .goals_title{
     text-align: center;
     color: #582CB0;
     margin: 20px 0;
+    
 }
 #goals{
     display: grid;
@@ -20,18 +20,6 @@
     margin-left: 30px;
     
 }
-/* .tech_goals li{
-    margin-left: 30px;
-}
-.places_to_visit li{
-    margin-left: 30px;
-}
-.gaming_goals li{
-    margin-left: 30px;
-}
-.insane_goals li{
-    margin-left: 30px;
-} */
 .tech_goals{
     width: 40vw;
     border-right: 1px solid black;
@@ -53,10 +41,16 @@
 }
 
 @media screen and (max-width: 800px){
+    .circles_container{
+        position: fixed;
+        height: 100%;
+        bottom: 0;
+    }
     #goals{
         width: 100%;
         grid-template-columns: 100%;
         justify-content: left;
+        margin-bottom: 0;
     }
     .tech_goals{
         width: 100%;

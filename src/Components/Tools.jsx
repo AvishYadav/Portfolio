@@ -1,10 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import './Tools.css'
 import ToolCard from './ToolCard.jsx';
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
-
-
+import './CircleAnimation.css'
+import './Tools.css'
 
 const Tools = () => {
   const data = [
@@ -78,6 +77,20 @@ const leftArrow = () => {
 };
   return (
   <div className='tool_main'>
+        <div className='circles_container'>
+             <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+             </ul>
+        </div>
     <div className="tool_header"><h1>Tools Used</h1></div>
     <div className='tools' id='tools'>
         <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>

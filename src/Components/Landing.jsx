@@ -5,7 +5,14 @@ import forward_arrow from "../Img/forward_arrow.png";
 
 const Landing = () => {
   return (
-    <div className='landing'>
+    <div className='background'>
+        <div class="">
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+         <div class="cube"></div>
+        <div class="cube"></div>
+        </div>
         <div className="landing_body">
         <div className="landing_contain">
             

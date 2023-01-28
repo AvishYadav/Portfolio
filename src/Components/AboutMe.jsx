@@ -4,6 +4,7 @@ import react_icon from "../Img/react_icon.png";
 import python_icon from "../Img/python_icon.png";
 import c_icon from "../Img/c_icon.png";
 import "./AboutMe.css"
+// import './CircleAnimation.css'
 
 const AboutMe = () =>{
     return (
