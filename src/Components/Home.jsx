@@ -6,8 +6,10 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-      <Landing />
-      <AboutMe />
+      <div className="background">
+          <Landing />
+          <AboutMe />
+      </div>
     </div>
   )
 }

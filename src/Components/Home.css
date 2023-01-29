@@ -1,3 +1,11 @@
-.home{
-    margin-top: 130px;
-}
+.background {
+    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+  }

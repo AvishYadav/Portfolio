@@ -3,8 +3,8 @@ import { useState } from 'react'
 import portfolio_img from "../Img/porfolio_img.png"
 import QuizR_img from "../Img/QuizR_img.png"
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
-import { right_arrow, left_arrow } from "./Tools.css"
 import './Works.css'
+import "./CircleAnimation.css";
 
 const Works = () => {
   const data = [
@@ -66,9 +66,7 @@ const Works = () => {
     },
 ];
 const [idNumber, setIdNumber] = useState(0);
-const changeId = (id) => {
-    setIdNumber(id);
-};
+
 const rightArrow = () => {
     if (idNumber + 1 >= data.length) {
         setIdNumber(0);
@@ -85,25 +83,11 @@ const leftArrow = () => {
 };
   return (
   <div className='work'>
-                <div className='circles_container'>
-                  <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-            </div>
     <div id='work_header'><h1>My Recent Work</h1></div>
     <div className="work_container">
       <div className="left_arrow"><button onClick={leftArrow}><IoIosArrowBack/></button></div>
       <div className="work_card">
-        <div className="work_img"><img src={data[idNumber].img_src} alt="image" /></div>
+        <div className="work_img"><img src={data[idNumber].img_src} alt="wrk_image" /></div>
         <div className="work_desc_card">
           <div className="work_desc">
             <h2>{data[idNumber].name}</h2>

@@ -11,7 +11,7 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
         <div className="footer_box">
             <div className="footer_box_social">
                 <h3>Contact Me</h3>
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
         </div>
         
-    </div>
+    </footer>
   )
 }
 

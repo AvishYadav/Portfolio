@@ -94,6 +94,10 @@
     border-right: 1px solid gray;
     margin-right: 70px;
 }
+
+.about_resume{
+    background: whitesmoke;
+}
 @media screen and (max-width: 1300px) {
     .about_main {
         display: grid;

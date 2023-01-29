@@ -5,7 +5,7 @@ import forward_arrow from "../Img/forward_arrow.png";
 
 const Landing = () => {
   return (
-    <div className='background'>
+    <div className='bg_landing'>
         <div class="">
          <div class="cube"></div>
          <div class="cube"></div>
