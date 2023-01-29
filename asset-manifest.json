@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testingapp/static/css/main.fd550ae8.css",
-    "main.js": "/testingapp/static/js/main.c1cc8b67.js",
+    "main.css": "/testingapp/static/css/main.17f19fda.css",
+    "main.js": "/testingapp/static/js/main.fdd2c15d.js",
     "static/js/787.c530ca92.chunk.js": "/testingapp/static/js/787.c530ca92.chunk.js",
     "static/media/QuizR_img.png": "/testingapp/static/media/QuizR_img.8d741dd7b672d0b4704c.png",
     "static/media/about_img.png": "/testingapp/static/media/about_img.44657b378586e280478b.png",
@@ -10,12 +10,12 @@
     "static/media/landing_img.png": "/testingapp/static/media/landing_img.d3dfe848336a10edb91d.png",
     "static/media/react_icon.png": "/testingapp/static/media/react_icon.5f28f958958021d90aa2.png",
     "index.html": "/testingapp/index.html",
-    "main.fd550ae8.css.map": "/testingapp/static/css/main.fd550ae8.css.map",
-    "main.c1cc8b67.js.map": "/testingapp/static/js/main.c1cc8b67.js.map",
+    "main.17f19fda.css.map": "/testingapp/static/css/main.17f19fda.css.map",
+    "main.fdd2c15d.js.map": "/testingapp/static/js/main.fdd2c15d.js.map",
     "787.c530ca92.chunk.js.map": "/testingapp/static/js/787.c530ca92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd550ae8.css",
-    "static/js/main.c1cc8b67.js"
+    "static/css/main.17f19fda.css",
+    "static/js/main.fdd2c15d.js"
   ]
 }
